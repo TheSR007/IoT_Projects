@@ -1,4 +1,4 @@
-#define pin 1
+#define pin 2
 #define High 1
 #define Low 0
 
