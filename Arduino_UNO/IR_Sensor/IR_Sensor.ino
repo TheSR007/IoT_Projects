@@ -8,10 +8,10 @@ void setup() {
 
 void loop() {
   int irValue = digitalRead(IR_PIN);  // Read the IR sensor state
-  if (irValue == Low) {
+  if (irValue == HIGH) {
     Serial.println("IR Signal Detected!");
   } else {
     Serial.println("No IR Signal");
   }
-  delay(500);
+  delay(200);
 }
